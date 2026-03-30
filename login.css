@@ -1,0 +1,65 @@
+body {
+      background-color: #f8f9fa;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .main-container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    .top-bar {
+      background: white;
+      border-radius: 20px;
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+    .logo {
+      width: 42px;
+      height: 42px;
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .form-card {
+      background: white;
+      border-radius: 24px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    }
+    .nav-tabs .nav-link {
+      font-weight: 600;
+      color: #6b7280;
+      border: none;
+      border-bottom: 3px solid transparent;
+      border-radius: 0;
+      padding: 1rem 2rem;
+    }
+    .nav-tabs .nav-link.active {
+      color: #2563eb;
+      border-bottom: 3px solid #2563eb;
+    }
+    .btn-login {
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      border: none;
+      font-size: 1.25rem;
+      font-weight: 700;
+      padding: 1rem 3rem;
+      border-radius: 50px;
+      box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+      transition: all 0.3s;
+    }
+    .btn-login:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 35px rgba(37, 99, 235, 0.4);
+    }
+    .input-group .form-control {
+      border-radius: 12px 0 0 12px;
+    }
+    .input-group .btn {
+      border-radius: 0 12px 12px 0;
+    }
